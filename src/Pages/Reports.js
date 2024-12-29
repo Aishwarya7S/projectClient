@@ -106,6 +106,25 @@ const Report = () => {
           'Price': 'price',
         };
         break;
+        case 'Purchase':
+          url = 'http://localhost:7000/api/purchasers/getItems';
+          headers = [
+            'S.No', 'Vendor', 'Reason', 'Item Code', 'Item Name', 'Batch Code', 'Available Quantity',
+            'Transfer Quantity', 'GST%', 'Mrp', 'Price',
+          ];
+          keyMap = {
+            'Vendor': 'vendor',
+            'Reason':'reason',
+            'Item Code': 'itemCode',
+            'Item Name': 'itemName',
+            'Batch Code': 'batchCode',
+            'Available Quantity': 'availableQty',
+            'Transfer Quantity': 'transferQty',
+            'GST%': 'gstPercent',
+            'Mrp': 'mrp',
+            'Price': 'price',
+          };
+          break;
       default:
         break;
     }
@@ -185,6 +204,7 @@ const Report = () => {
                   <option value="Inventory">Inventory</option>
                   <option value="StockIn">Stock Inward </option>
                   <option value="StockOut">Stock Outward</option>
+                  <option value="Purchase">Purchase Return</option>
                 </Form.Control>
               </Form.Group>
             </Form>
