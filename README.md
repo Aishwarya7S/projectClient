@@ -1,6 +1,5 @@
-# projectClient
-Hai :)
 ## CIVIL STORE MANAGEMENT SYSTEM - MERN STACK
+This is client folder of this project.
 This folder focuses on the frontend development of the Civil Store Management System. It includes:
 1.User Interface Design: Creating an intuitive and responsive interface for easy navigation.
 2.Dynamic Functionality: Enabling seamless interactions using React.js components.
