@@ -1,4 +1,5 @@
-## Client Folder  
+## CIVIL STORE MANAGEMENT SYSTEM - MERN STACK
+### Client Folder  
 
 This folder focuses on the frontend development of the **Civil Store Management System**. It includes:  
 
